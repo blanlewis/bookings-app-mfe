@@ -1,6 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
 export default function Home() {
   const bookings = [
     { id: "BK-1001", route: "Udupi → Mangalore", status: "In Transit" },
