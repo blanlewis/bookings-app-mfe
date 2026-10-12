@@ -8,6 +8,7 @@ export default function Home() {
     <main style={{ padding: "32px", fontFamily: "Arial" }}>
       <h1>Bookings Management</h1>
       <p>Bookings micro-frontend</p>
+      <p>Testing</p>
 
       {bookings.map((booking) => (
         <article
