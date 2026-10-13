@@ -6,8 +6,8 @@ type NavigationItem = {
 };
 
 type CustomSidebarProps = {
-  navigationItems: NavigationItem[];
-  activeHref: string;
+  readonly navigationItems: NavigationItem[];
+  readonly activeHref: string;
 };
 
 export default function CustomSidebar({

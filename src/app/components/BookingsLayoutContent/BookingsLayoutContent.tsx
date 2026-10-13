@@ -5,10 +5,10 @@ import { useSearchParams } from "next/navigation";
 import CustomSidebar from "../CustomSidebar";
 
 const allNavigationItems = [
-  { label: "Dashboard", href: "/", icon: "🏠" },
-  { label: "Bookings", href: "/bookings", icon: "📦" },
-  { label: "Fleet", href: "/fleet", icon: "🚚" },
-  { label: "Reports", href: "/reports", icon: "📊" },
+  { label: "Dashboard", href: "/?source=host", icon: "🏠" },
+  { label: "Bookings", href: "/bookings?source=host", icon: "📦" },
+  { label: "Fleet", href: "/fleet?source=host", icon: "🚚" },
+  { label: "Reports", href: "/reports?source=host", icon: "📊" },
 ];
 
 const standaloneNavigationItems = [
